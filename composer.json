@@ -1,0 +1,28 @@
+{
+    "name": "wamasoftware/yahoo-Conatct-library",
+    "description": "This packages will get all contacts from yahoo account",
+    "keywords": ["yahoo contact", "contact", "laravel framework", "php"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wama Software",
+            "emaii": "samier.sompura@gmail.com",
+            "homepage": "http://wamasoftware.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "illuminate/support": "~5"
+    },    
+    "require-all": true,
+    "autoload": {    
+        "psr-0": {
+            "wamasoftware\\yahoo-Conatct-library": "src/"
+        }
+    },  
+    "target-dir": "wamasoftware\\yahoo-Conatct-library",
+    "minimum-stability": "dev"
+}
