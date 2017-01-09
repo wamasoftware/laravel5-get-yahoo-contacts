@@ -21,7 +21,12 @@
         "psr-0": {
             "wamasoftware\\YahooContact": "src/"
         }
-    },  
+    }, 
+   "extra": {
+        "branch-alias": {
+            "dev-master": "1.6.x-dev"
+        }
+    } 
     "target-dir": "wamasoftware\\YahooContact",
     "minimum-stability": "dev"
 }
