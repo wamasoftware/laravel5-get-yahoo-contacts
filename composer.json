@@ -1,7 +1,7 @@
 {
-    "name": "laravel5-yahoo-contact-library",
+    "name": "wamasoftware/laravel5-yahoo-contact-library",
     "description": "This packages will get all contacts from yahoo account",
-    "keywords": ["yahoo contact", "contact", "laravel framework", "php"],
+    "keywords": ["yahoo contact", "contct", "laravel framework", "php"],
     "type": "library",
     "license": "MIT",
     "authors": [
