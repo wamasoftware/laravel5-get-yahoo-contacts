@@ -1,5 +1,5 @@
 {
-    "name": "wamasoftware/yahoo-conatct-library",
+    "name": "laravel5-yahoo-contact-library",
     "description": "This packages will get all contacts from yahoo account",
     "keywords": ["yahoo contact", "contact", "laravel framework", "php"],
     "type": "library",
@@ -19,9 +19,9 @@
     "require-all": true,
     "autoload": {    
         "psr-0": {
-            "wamasoftware\\YahooConatct": "src/"
+            "wamasoftware\\YahooContact": "src/"
         }
     },  
-    "target-dir": "wamasoftware\\YahooConatct",
+    "target-dir": "wamasoftware\\YahooContact",
     "minimum-stability": "dev"
 }
