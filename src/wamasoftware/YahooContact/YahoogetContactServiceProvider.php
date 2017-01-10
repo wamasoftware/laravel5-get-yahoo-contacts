@@ -13,10 +13,8 @@ class YahoogetContactServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
-//         include __DIR__.'/routes.php';
-          $this->publishes([
-            __DIR__ . '/config/config.php' => config_path('yahoo-Conatct-library.php'),
+ 	$this->publishes([
+            __DIR__ . '/../../config/config.php' => config_path('laravel5-yahoo-contact-library.php'),
         ], 'config');
     }
 
@@ -28,9 +26,8 @@ class YahoogetContactServiceProvider extends ServiceProvider
     public function register()
     {
         //register our controller
-             $this->mergeConfigFrom(__DIR__ . '/config/config.php', 'yahoo-Conatct-library.php');
 
-             $this->app['yahoo'] = $this->app->share(function ($app)
+          $this->app['yahoo'] = $this->app->share(function ($app)
         {
             // create oAuth instance
             $yahoo = new YahooContact();
