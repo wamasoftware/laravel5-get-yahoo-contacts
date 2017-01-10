@@ -1,6 +1,6 @@
 <?php
 
-namespace Yahoocontact\Contact;
+namespace wamasoftware\YahooContact;
 
 use Illuminate\Support\ServiceProvider;
 
