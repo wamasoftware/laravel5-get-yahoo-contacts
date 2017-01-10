@@ -1,6 +1,6 @@
 <?php
 
-namespace Yahoocontact\Contact\Facade;
+namespace  wamasoftware\YahooContact\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
